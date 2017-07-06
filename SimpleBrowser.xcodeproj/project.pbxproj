@@ -14,6 +14,7 @@
 		375B0DF31E6F05640061100F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 375B0DF11E6F05640061100F /* LaunchScreen.storyboard */; };
 		375B0DFE1E6F05640061100F /* SimpleBrowserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375B0DFD1E6F05640061100F /* SimpleBrowserTests.swift */; };
 		375B0E091E6F05640061100F /* SimpleBrowserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375B0E081E6F05640061100F /* SimpleBrowserUITests.swift */; };
+		37B779521E8F7FAA0005BF89 /* button-back.png in Resources */ = {isa = PBXBuildFile; fileRef = 37B779511E8F7FAA0005BF89 /* button-back.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		375B0E041E6F05640061100F /* SimpleBrowserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleBrowserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		375B0E081E6F05640061100F /* SimpleBrowserUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleBrowserUITests.swift; sourceTree = "<group>"; };
 		375B0E0A1E6F05640061100F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37B779511E8F7FAA0005BF89 /* button-back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "button-back.png"; path = "Resources/button-back.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		375B0DE71E6F05640061100F /* SimpleBrowser */ = {
 			isa = PBXGroup;
 			children = (
+				37B779501E8F7F630005BF89 /* Resources */,
 				375B0DE81E6F05640061100F /* AppDelegate.swift */,
 				375B0DEA1E6F05640061100F /* ViewController.swift */,
 				375B0DEC1E6F05640061100F /* Main.storyboard */,
@@ -123,6 +126,14 @@
 				375B0E0A1E6F05640061100F /* Info.plist */,
 			);
 			path = SimpleBrowserUITests;
+			sourceTree = "<group>";
+		};
+		37B779501E8F7F630005BF89 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				37B779511E8F7FAA0005BF89 /* button-back.png */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,7 +199,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0820;
-				LastUpgradeCheck = 0820;
+				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "松村泰地";
 				TargetAttributes = {
 					375B0DE41E6F05630061100F = {
@@ -232,6 +243,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37B779521E8F7FAA0005BF89 /* button-back.png in Resources */,
 				375B0DF31E6F05640061100F /* LaunchScreen.storyboard in Resources */,
 				375B0DF01E6F05640061100F /* Assets.xcassets in Resources */,
 				375B0DEE1E6F05640061100F /* Main.storyboard in Resources */,
@@ -355,7 +367,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -398,7 +410,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -503,6 +515,7 @@
 				375B0E0F1E6F05640061100F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		375B0E101E6F05640061100F /* Build configuration list for PBXNativeTarget "SimpleBrowserTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +524,7 @@
 				375B0E121E6F05640061100F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		375B0E131E6F05640061100F /* Build configuration list for PBXNativeTarget "SimpleBrowserUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +533,7 @@
 				375B0E151E6F05640061100F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
